@@ -1,4 +1,4 @@
-package com.openweather.openweather;
+package com.openweather.openweather.WeatherNow;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.WindowManager;
 
+import com.openweather.openweather.R;
 import com.qiushui.blurredview.BlurredView;
 
 public class WeatherNowActivity extends AppCompatActivity {

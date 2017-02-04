@@ -10,7 +10,8 @@
         android:layout_height="match_parent"
         android:fontFamily="sans-serif-thin"
         android:gravity="bottom"
-        android:text="37°"
+        android:text="23°"
         android:textSize="90sp"
+        android:id="@+id/tv_temp"
         android:textColor="@android:color/background_light" />
 </LinearLayout>

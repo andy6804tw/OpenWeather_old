@@ -10,10 +10,10 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        useLibrary 'org.apache.http.legacy'
 
         renderscriptTargetApi 19
         renderscriptSupportModeEnabled true
-
         ndk {
             abiFilters "armeabi","armeabi-v7a", "x86", "mips"
         }
